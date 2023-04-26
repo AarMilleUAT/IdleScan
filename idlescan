@@ -1,0 +1,1 @@
+nmap -sI zombie_ip_address -p 1-65535 --data-length 4 --scan-delay 10 -oA scan_results target_ip_address
